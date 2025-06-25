@@ -139,6 +139,7 @@ class AlunoApp {
                       aluno.id
                     })">Excluir</button>
                 </div>
+                
             </div>
         `
       )
@@ -166,7 +167,6 @@ class AlunoApp {
   cancelEdit() {
     this.resetForm();
   }
-
   resetForm() {
     this.form.reset();
     this.editingId = null;
